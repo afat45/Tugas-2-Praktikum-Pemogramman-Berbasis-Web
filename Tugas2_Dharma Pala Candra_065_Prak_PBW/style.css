@@ -1,0 +1,49 @@
+/* Custom Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding-top: 80px;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        padding: 100px 0;
+    }
+}
